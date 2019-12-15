@@ -80,6 +80,7 @@ function file_validate(val,minLen,maxLen,fName,errId,allowed){
     var ext = val.split('.').pop().toLowerCase();
     val = val.toString();
     if(val==''){errs ='Please Upload '+fName;}
+    if(allowed.includes(ext)){errs ='Invalid file format';}
     else{errs='';}
     return errs;
 }
