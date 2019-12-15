@@ -1,4 +1,3 @@
-var base_url = 'https://www.wisdomjobsgulf.com/mobile/';
 var emailFilter =  /^[A-Z0-9._%+-]+@([A-Z0-9-]+\.)+[A-Z]{2,4}$/i;
 var charFilter = /^[a-zA-Z\s]+$/;
 var pwdvalid=/^[a-zA-Z0-9]+$/;
